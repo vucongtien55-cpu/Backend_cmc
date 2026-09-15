@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<!-- Featured News Section -->
+<div class="row g-4 mb-4 pb-4 border-bottom">
+    <div class="col-md-7">
+        <img src="@Model.FeaturedArticle.ImageUrl" class="img-fluid rounded-0 w-100 object-fit-cover" style="height: 320px;" alt="@Model.FeaturedArticle.Title">
+    </div>
+
+    <div class="col-md-5 d-flex flex-column justify-content-start">
+        <h2 class="fw-bold lh-base fs-3 mb-3">
+            <a href="#" class="text-dark text-decoration-none">@Model.FeaturedArticle.Title</a>
+        </h2>
+        <p class="text-secondary fs-6 mb-3" style="line-height: 1.6;">
+            @Model.FeaturedArticle.Summary
+        </p>
+        <span class="text-muted small">@Model.FeaturedArticle.TimeAgo</span>
+    </div>
+</div>
+
+<!-- Secondary News Grid Section -->
+<div class="row g-4">
+    @foreach (var article in Model.SubArticles)
+    {
+        <div class="col-md-4">
+            <h3 class="fw-bold fs-5 mb-3">
+                <a href="#" class="text-dark text-decoration-none">@article.Title</a>
+            </h3>
+            <img src="@article.ImageUrl" class="img-fluid w-100 object-fit-cover" style="height: 180px;" alt="@article.Title">
+        </div>
+    }
+
+    <!-- Opinion / Sidebar Section -->
+    <div class="col-md-4 ps-md-4 border-start">
+        <span class="text-danger fw-bold fs-6 d-block mb-2">Góc nhìn</span>
+        <h3 class="fw-bold fs-5 mb-2">
+            <a href="#" class="text-dark text-decoration-none">@Model.OpinionArticle.Title</a>
+        </h3>
+        <p class="text-secondary small mb-3">
+            @Model.OpinionArticle.Summary
+        </p>
+        <div class="d-flex align-items-center gap-2 text-muted small">
+            <span class="fst-italic">@Model.OpinionArticle.Author</span>
+            <span>•</span>
+            <i class="bi bi-chat-fill"></i>
+            <span>@Model.OpinionArticle.CommentCount</span>
+        </div>
+    </div>
+</div>

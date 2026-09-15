@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Tin tức</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="border-bottom mb-4">
+        <div class="container d-flex align-items-center gap-3 py-2 text-nowrap overflow-auto fs-6">
+            <a href="#" class="text-secondary text-decoration-none"><i class="bi bi-house-door-fill"></i></a>
+            <a href="#" class="text-dark fw-semibold text-decoration-none">VnE-GO</a>
+            <a href="#" class="text-dark text-decoration-none">Thời sự</a>
+            <a href="#" class="text-dark text-decoration-none">Thế giới</a>
+            <a href="#" class="text-dark text-decoration-none">Kinh doanh</a>
+            <a href="#" class="text-dark text-decoration-none">Khoa học công nghệ</a>
+            <a href="#" class="text-dark text-decoration-none">Góc nhìn</a>
+            <a href="#" class="text-dark text-decoration-none">Spotlight</a>
+            <a href="#" class="text-dark text-decoration-none">Bất động sản</a>
+            <a href="#" class="text-dark text-decoration-none">Sức khỏe</a>
+            <a href="#" class="text-dark text-decoration-none">Giải trí</a>
+            <a href="#" class="text-dark text-decoration-none">Thể thao</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
