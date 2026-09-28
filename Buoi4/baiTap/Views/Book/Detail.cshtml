@@ -1,0 +1,16 @@
+﻿@model baiTap.Models.Book
+
+@{
+    ViewData["Title"] = "Chi tiết sách";
+}
+
+<h2>Chi tiết sách</h2>
+
+<div class="card" style="width: 24rem;">
+    <div class="card-body">
+        <h5 class="card-title">Sách ID: @Model.Id</h5>
+        <p class="card-text"><strong>Tên sách:</strong> @Model.Name</p>
+        <p class="card-text"><strong>Giá:</strong> @Model.Price $</p>
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+    </div>
+</div>

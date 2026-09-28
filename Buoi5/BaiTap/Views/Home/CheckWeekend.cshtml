@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null; // Bỏ layout mặc định nếu chỉ muốn xuất file đơn lẻ
+
+    // Lấy ngày hiện tại và kiểm tra xem có phải Thứ 7 hoặc Chủ Nhật không
+    DateTime today = DateTime.Now;
+    bool isWeekend = (today.DayOfWeek == DayOfWeek.Saturday || today.DayOfWeek == DayOfWeek.Sunday);
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Kiểm tra cuối tuần</title>
+</head>
+<body>
+    <h2>Hôm nay là: @today.ToString("dd/MM/yyyy") (@today.DayOfWeek)</h2>
+
+    @if (isWeekend)
+    {
+        <h3 style="color: green;">Hôm nay là cuối tuần! Mọi người nghỉ ngơi vui vẻ.</h3>
+    }
+    else
+    {
+        <h3 style="color: blue;">Hôm nay là ngày trong tuần. Hãy tiếp tục làm việc chăm chỉ!</h3>
+    }
+</body>
+</html>

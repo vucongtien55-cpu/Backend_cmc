@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Github\\Backend_cmc\\Buoi1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\gocnhin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\gocnhin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\thoisu.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\thoisu.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\thoisu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\thoisu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\gocnhin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\gocnhin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|i:\\github\\backend_cmc\\buoi1\\buoi1\\buoi1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01B66B5F-6383-4DCE-48A7-51EFD3F281C7}|Buoi1\\Buoi1.csproj|solutionrelative:buoi1\\buoi1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\Error.cshtml",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Buoi1\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-16T02:17:19.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\Error.cshtml.cs",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Error.cshtml.cs",
+              "RelativeToolTip": "Buoi1\\Pages\\Error.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T02:17:18.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GocNhin.cshtml.cs",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\GocNhin.cshtml.cs",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\GocNhin.cshtml.cs",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\GocNhin.cshtml.cs",
+              "RelativeToolTip": "Buoi1\\Pages\\GocNhin.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T02:17:15.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThoiSu.cshtml.cs",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\ThoiSu.cshtml.cs",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\ThoiSu.cshtml.cs",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\ThoiSu.cshtml.cs",
+              "RelativeToolTip": "Buoi1\\Pages\\ThoiSu.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T02:15:13.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GocNhin.cshtml",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\GocNhin.cshtml",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\GocNhin.cshtml",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\GocNhin.cshtml",
+              "RelativeToolTip": "Buoi1\\Pages\\GocNhin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-16T02:13:59.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThoiSu.cshtml",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\ThoiSu.cshtml",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\ThoiSu.cshtml",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\ThoiSu.cshtml",
+              "RelativeToolTip": "Buoi1\\Pages\\ThoiSu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-16T02:13:33.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "Buoi1\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T02:07:51.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Buoi1",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Buoi1.csproj",
+              "RelativeDocumentMoniker": "Buoi1\\Buoi1.csproj",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Buoi1.csproj",
+              "RelativeToolTip": "Buoi1\\Buoi1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T02:07:28.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:194643828:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\Index.cshtml.cs",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Buoi1\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T02:06:09.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Buoi1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "I:\\Github\\Backend_cmc\\Buoi1\\Buoi1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Buoi1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-16T02:05:56.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

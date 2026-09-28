@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+
+    // Khởi tạo danh sách các sản phẩm mẫu
+    List<Product> products = new List<Product>
+    {
+        new Product { Id = 1, Name = "Laptop Dell XPS", Price = 25000000 },
+        new Product { Id = 2, Name = "Điện thoại iPhone 15", Price = 22000000 },
+        new Product { Id = 3, Name = "Chuột không dây Logi", Price = 500000 },
+        new Product { Id = 4, Name = "Bàn phím cơ Akko", Price = 1500000 }
+    };
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Danh sách sản phẩm</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Danh Sách Sản Phẩm</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Mã SP (ID)</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá (VNĐ)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in products)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price.ToString("N0")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

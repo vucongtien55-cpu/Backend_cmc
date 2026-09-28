@@ -9,20 +9,27 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header class="border-bottom mb-4">
-        <div class="container d-flex align-items-center gap-3 py-2 text-nowrap overflow-auto fs-6">
-            <a href="#" class="text-secondary text-decoration-none"><i class="bi bi-house-door-fill"></i></a>
-            <a href="#" class="text-dark fw-semibold text-decoration-none">VnE-GO</a>
-            <a href="#" class="text-dark text-decoration-none">Thời sự</a>
-            <a href="#" class="text-dark text-decoration-none">Thế giới</a>
-            <a href="#" class="text-dark text-decoration-none">Kinh doanh</a>
-            <a href="#" class="text-dark text-decoration-none">Khoa học công nghệ</a>
-            <a href="#" class="text-dark text-decoration-none">Góc nhìn</a>
-            <a href="#" class="text-dark text-decoration-none">Spotlight</a>
-            <a href="#" class="text-dark text-decoration-none">Bất động sản</a>
-            <a href="#" class="text-dark text-decoration-none">Sức khỏe</a>
-            <a href="#" class="text-dark text-decoration-none">Giải trí</a>
-            <a href="#" class="text-dark text-decoration-none">Thể thao</a>
+    <header class="border-bottom sticky-top bg-white">
+        <div class="container d-flex align-items-center gap-3 py-2 overflow-auto fs-6 text-nowrap">
+            <!-- Icon Home về Trang chủ -->
+            <a asp-page="/Index" class="text-secondary text-decoration-none fs-5 d-flex align-items-center">
+                <i class="bi bi-house-door-fill"></i>
+            </a>
+
+            <!-- Logo về Trang chủ -->
+            <a asp-page="/Index" class="text-dark fw-bold text-decoration-none fs-5 me-2">VnE-GO</a>
+
+            <!-- Các mục Menu chuyển trang -->
+            <a asp-page="/ThoiSu" class="text-dark text-decoration-none fw-semibold">Thời sự</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Thế giới</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Kinh doanh</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Khoa học công nghệ</a>
+            <a asp-page="/GocNhin" class="text-dark text-decoration-none">Góc nhìn</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Spotlight</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Bất động sản</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Sức khỏe</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Giải trí</a>
+            <a asp-page="/Index" class="text-dark text-decoration-none">Thể thao</a>
         </div>
     </header>
 
