@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "I:\\Github\\Backend_cmc\\Buoi5\\BaiTap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|i:\\github\\backend_cmc\\buoi5\\baitap\\views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|solutionrelative:views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|i:\\github\\backend_cmc\\buoi5\\baitap\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|i:\\github\\backend_cmc\\buoi5\\baitap\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|i:\\github\\backend_cmc\\buoi5\\baitap\\views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|solutionrelative:views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7544263-5586-49B4-8588-7263018F5F7C}|BaiTap.csproj|i:\\github\\backend_cmc\\buoi5\\baitap\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,8 +58,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-30T00:17:13.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T00:17:13.577Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-30T00:17:11.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T00:17:11.046Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T00:16:12.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T00:16:12.474Z"
             },
             {
               "$type": "Document",
@@ -97,25 +94,24 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-28T01:33:47.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T01:33:47.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi5\\BaiTap\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "I:\\Github\\Backend_cmc\\Buoi5\\BaiTap\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T01:31:38.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductList.cshtml",
               "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi5\\BaiTap\\Views\\Home\\ProductList.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ProductList.cshtml",
@@ -128,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "I:\\Github\\Backend_cmc\\Buoi5\\BaiTap\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -149,8 +145,7 @@
               "RelativeToolTip": "Views\\Home\\CheckWeekend.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-28T01:28:44.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T01:28:44.337Z"
             },
             {
               "$type": "Bookmark",

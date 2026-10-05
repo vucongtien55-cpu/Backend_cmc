@@ -13,27 +13,28 @@ import java.util.List;
 public class StudentController {
     private final StudentService studentService;
 
-    // Xem tất cả
     @GetMapping
     public List<Student> getAll() {
         return studentService.getAll();
     }
 
-    //Thêm sinh viên mới
+    @GetMapping("{id}")
+    public Student getById(@PathVariable Long id) {
+        return studentService.getById(id);
+    }
+
     @PostMapping
     public Student createStudent(@RequestBody Student student) {
         return studentService.createStudent(student);
     }
 
-    //Sua sinh vien
     @PutMapping("{id}")
-    public Student updateStudent(@PathVariable Long id, @RequestBody Student student){
+    public Student updateStudent(@PathVariable Long id, @RequestBody Student student) {
         return studentService.updateStudent(id, student);
     }
 
-    //xoa sinh vien
     @DeleteMapping("{id}")
-    public void deleteStudent(@PathVariable Long id){
+    public void deleteStudent(@PathVariable Long id) {
         studentService.deleteStudent(id);
     }
 }

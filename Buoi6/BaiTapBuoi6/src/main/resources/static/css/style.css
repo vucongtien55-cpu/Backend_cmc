@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #eef1f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    gap: 28px;
+    width: 100%;
+    max-width: 1300px;
+    align-items: flex-start;
+}
+
+.form-card, .table-card {
+    background: #f4f4f4;
+    border: 1px solid #dfe3e8;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.form-card {
+    width: 420px;
+    padding: 28px 24px 22px;
+}
+
+.table-card {
+    flex: 1;
+    padding: 20px 18px 14px;
+}
+
+h2 {
+    margin: 0 0 18px;
+    font-size: 34px;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 19px;
+    margin-bottom: 8px;
+    color: #1f1f1f;
+}
+
+input {
+    height: 42px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    background: #f8f8f8;
+    padding: 0 12px;
+    font-size: 18px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.15);
+}
+
+.primary-btn {
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-radius: 12px;
+    background: #1e88ff;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.primary-btn:hover {
+    background: #1176ea;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+thead th {
+    text-align: left;
+    padding: 12px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+tbody td {
+    padding: 10px;
+    border-top: 1px solid #e5e7eb;
+    color: #252525;
+}
+
+tbody tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+.action-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 7px 12px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.edit-btn {
+    background: #f4b400;
+}
+
+.delete-btn {
+    background: #e53935;
+}
+
+@media (max-width: 980px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .form-card,
+    .table-card {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
