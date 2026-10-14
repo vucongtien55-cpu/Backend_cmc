@@ -29,5 +29,6 @@ public class CourseCategory {
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Course> courses = new ArrayList<>();
+
 }
 

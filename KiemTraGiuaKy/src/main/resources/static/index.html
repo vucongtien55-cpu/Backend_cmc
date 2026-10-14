@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Management</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div><h1 data-i18n="title">Dish Management</h1><p data-i18n="subtitle">Manage your menu</p></div><button id="langBtn">Tiếng Việt</button></header>
+<main>
+    <section class="panel">
+        <h2 data-i18n="search">Search & Filter</h2>
+        <form id="filterForm" class="filters">
+            <input id="name" placeholder="Dish name">
+            <select id="category"><option value="">All categories</option></select>
+            <select id="available"><option value="">All statuses</option><option value="true">Available</option><option value="false">Unavailable</option></select>
+            <input id="minPrice" type="number" min="0" step="0.01" placeholder="Min price">
+            <input id="maxPrice" type="number" min="0" step="0.01" placeholder="Max price">
+            <select id="sortBy"><option value="id">Default</option><option value="price">Price</option><option value="preparationTime">Preparation time</option></select>
+            <select id="direction"><option value="asc">Ascending</option><option value="desc">Descending</option></select>
+            <button type="submit" data-i18n="filter">Filter</button><button type="reset" class="secondary" data-i18n="reset">Reset</button>
+        </form>
+    </section>
+    <section class="panel">
+        <div class="section-head"><h2 data-i18n="dishes">Dishes</h2><button id="newBtn" data-i18n="addDish">+ Add dish</button></div>
+        <div id="message" role="status"></div>
+        <div class="table-wrap"><table><thead><tr><th>ID</th><th data-i18n="name">Name</th><th data-i18n="category">Category</th><th data-i18n="price">Price</th><th data-i18n="time">Prep. time</th><th data-i18n="status">Status</th><th data-i18n="actions">Actions</th></tr></thead><tbody id="dishRows"></tbody></table></div>
+    </section>
+    <section class="panel" id="editor" hidden>
+        <h2 id="editorTitle">Add dish</h2>
+        <form id="dishForm" class="form-grid">
+            <input type="hidden" id="dishId">
+            <label><span data-i18n="name">Name</span><input id="dishName" required></label>
+            <label><span data-i18n="price">Price</span><input id="dishPrice" type="number" min="0.01" step="0.01" required></label>
+            <label><span data-i18n="time">Preparation time (minutes)</span><input id="dishTime" type="number" min="1" required></label>
+            <label><span data-i18n="category">Category</span><select id="dishCategory" required></select></label>
+            <label class="check"><input id="dishAvailable" type="checkbox" checked><span data-i18n="available">Available</span></label>
+            <label class="wide"><span data-i18n="description">Description</span><textarea id="dishDescription" rows="3"></textarea></label>
+            <div class="wide actions"><button type="submit" data-i18n="save">Save</button><button type="button" id="cancelBtn" class="secondary" data-i18n="cancel">Cancel</button></div>
+        </form>
+    </section>
+    <section class="panel" id="detail" hidden><div class="section-head"><h2 data-i18n="detail">Dish details & images</h2><button class="secondary" id="closeDetail" data-i18n="close">Close</button></div><div id="detailContent"></div>
+        <form id="imageForm" class="filters"><input id="imageUrl" type="url" required placeholder="Image URL"><label class="check"><input id="isThumbnail" type="checkbox"><span data-i18n="thumbnail">Set as thumbnail</span></label><button data-i18n="addImage">Add image</button></form><div id="images" class="image-grid"></div></section>
+</main>
+<script src="/app.js"></script>
+</body></html>
